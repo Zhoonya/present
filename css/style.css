@@ -277,6 +277,20 @@ ol {
     color: #999;
 }
 
+.search-mail-page-form {
+    max-width: 500px;
+    width: 100%;
+}
+
+.search-mail-page-form input {
+    width: 100%;
+    font-size: 26px;
+    border: none;
+    border-bottom: 2px solid #dddddd;
+    background: 0 0;
+    color: #999;
+}
+
 .search-close-switch {
     position: absolute;
     width: 50px;
@@ -506,17 +520,19 @@ ol {
 -----------------------*/
 
 .banner {
-    height: 500px;
+    height: 350px;
 }
 
 .banner__text span {
+    display: block;
+    margin-bottom: 10px;
     font-size: 18px;
     color: #ca1515;
     text-transform: uppercase;
 }
 
 .banner__text h1 {
-    font-size: 80px;
+    font-size: 55px;
     color: #111111;
     font-family: "Cookie", cursive;
     margin-bottom: 15px;
@@ -544,13 +560,13 @@ ol {
 
 .banner__slider {
     text-align: center;
-    padding: 150px 0 0;
+    padding: 50px 0 0;
 }
 
 .banner__slider.owl-carousel .owl-dots {
     position: absolute;
     left: 0;
-    top: 430px;
+    top: 280px;
     width: 100%;
     text-align: center;
 }
@@ -3142,6 +3158,13 @@ ol {
 
 .contact__map iframe {
     width: 100%;
+}
+
+
+/* Index page */
+
+.search-block {
+    margin-bottom: 200px;
 }
 
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
