@@ -1,12 +1,3 @@
-/*  ---------------------------------------------------
-Template Name: Ashion
-Description: Ashion ecommerce template
-Author: Colorib
-Author URI: https://colorlib.com/
-Version: 1.0
-Created: Colorib
----------------------------------------------------------  */
-
 'use strict';
 
 (function ($) {
@@ -103,7 +94,7 @@ Created: Colorib
         dots: false,
         nav: true,
         navText: ["<i class='arrow_carrot-left'></i>","<i class='arrow_carrot-right'></i>"],
-        smartSpeed: 1200,
+        smartSpeed: 699,
         autoHeight: false,
         autoplay: false,
         mouseDrag: false,
@@ -184,12 +175,12 @@ Created: Colorib
     max: maxPrice,
     values: [minPrice, maxPrice],
     slide: function (event, ui) {
-        minamount.val('$' + ui.values[0]);
-        maxamount.val('$' + ui.values[1]);
+        minamount.val('Р' + ui.values[0]);
+        maxamount.val('Р' + ui.values[1]);
         }
     });
-    minamount.val('$' + rangeSlider.slider("values", 0));
-    maxamount.val('$' + rangeSlider.slider("values", 1));
+    minamount.val('Р' + rangeSlider.slider("values", 0));
+    maxamount.val('Р' + rangeSlider.slider("values", 1));
 
     /*------------------
 		Single Product
