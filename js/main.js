@@ -88,7 +88,7 @@
         Product Details Slider
     ----------------------------*/
     $(".product__details__pic__slider").owlCarousel({
-        loop: false,
+        loop: true,
         margin: 0,
         items: 1,
         dots: false,
@@ -175,12 +175,12 @@
     max: maxPrice,
     values: [minPrice, maxPrice],
     slide: function (event, ui) {
-        minamount.val('Р' + ui.values[0]);
-        maxamount.val('Р' + ui.values[1]);
+        minamount.val(ui.values[0]);
+        maxamount.val(ui.values[1]);
         }
     });
-    minamount.val('Р' + rangeSlider.slider("values", 0));
-    maxamount.val('Р' + rangeSlider.slider("values", 1));
+    minamount.val(rangeSlider.slider("values", 0));
+    maxamount.val(rangeSlider.slider("values", 1));
 
     /*------------------
 		Single Product
