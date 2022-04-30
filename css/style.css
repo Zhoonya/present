@@ -1560,10 +1560,10 @@ ol {
     font-weight: 700;
     display: inline-block;
     padding: 5px 16px 5px 20px;
-    border: 2px solid #ff0000;
+    border: 2px solid var(--hex-red);
     position: absolute;
     right: 0;
-    bottom: 0px;
+    bottom: 0;
     border-radius: 2px;
     background: #fff;
 }
@@ -1629,6 +1629,7 @@ ol {
     border-radius: 0;
 }
 
+.filter-range-wrap .price-range:hover,
 .filter-range-wrap .price-range .ui-slider-range:hover {
     cursor: pointer;
 }
@@ -1804,9 +1805,8 @@ ol {
 }
 
 .product__details__slider__content {
-    width: calc(78% - 20px);
+    width: calc(100% - 10px);
     float: left;
-    margin-left: 20px;
 }
 
 .product__details__pic__slider.owl-carousel .owl-nav button {
@@ -3856,7 +3856,7 @@ ol {
 .celebration__product__item {
     position: relative;
     margin: 0;
-    border: 1px solid #666666;
+    border: 2px solid #efeded;
 }
 
 .celebration__product__item > .product__item__favorites {
